@@ -31,7 +31,7 @@ With distance travelled per second in meters, we will get the speed of the vehic
 How to run project?
 Follow steps:
 
-Clone repo : git clone https://github.com/kraten/vehicle-speed-check
+Clone repo : git clone https://github.com/utiwari2/Vehicle_Speed-Number_Plate_Detection
 
 cd (change directory) into vehicle-speed-check cd vehicle-speed-check
 
@@ -41,4 +41,4 @@ Activate virtual environment ./venv/bin/activate
 
 Install requirements pip install -r requirements.txt
 
-run speed_check.py script python speed_check.py
+run speed_check.py script python vehicle_speed.py
