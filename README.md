@@ -12,3 +12,33 @@ Install OpenCV and dlib libraries from: 'https://www.learnopencv.com/install-dli
 Install these other libraries as well: skimage, sklearn, openpyxl, threading, time, joblib, numpy, matplotlib, datetime, & os.
 
 Through Command Prompt, run this code. (Make sure to change the directories)
+
+Technologies used :
+
+Python
+opencv
+dlib
+
+Tasks breakdown
+
+Vehicle Detection
+We are using Haarcascade classifier to identify vehicles.
+Vehicle Tracking - ( assigning IDs to vehicles )
+We have used corelation tracker from dlib library.
+Speed Calculation
+We are calculating the distance moved by the tracked vehicle in a second, in terms of pixels, so we need pixel per meter to calculate the distance travelled in meters.
+With distance travelled per second in meters, we will get the speed of the vehicle.
+How to run project?
+Follow steps:
+
+Clone repo : git clone https://github.com/kraten/vehicle-speed-check
+
+cd (change directory) into vehicle-speed-check cd vehicle-speed-check
+
+Create virtual environment python -m venv venv
+
+Activate virtual environment ./venv/bin/activate
+
+Install requirements pip install -r requirements.txt
+
+run speed_check.py script python speed_check.py
